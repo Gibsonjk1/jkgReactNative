@@ -4,11 +4,11 @@ This is a continuation of the app I've been working on most of the semester, now
 
 ## Instructions for Build and Use
 
-[Software Demo](Put_Your_Video_Link_Here)
+[Software Demo](https://youtu.be/WT8J0vmjIp8)
 
 Steps to build and/or run the software:
 
-1. Open the File RandR-BE Bash: npm start (will start the server on localhost:3000)
+1. Open the File RandR-BE (Found Here: https://github.com/Gibsonjk1/typescript) Bash: npm start (will start the server on localhost:3000)
 2. Open a new VSCode window and Open the file MountainMen Bash npm run web (will start the app in the web with localhost:8081)
 3. Option 2: (breaks because the backend doesn't work on mobile yet) bash: npx expo start
 4. Scan the QR code to see the app in ExpoGo
