@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# Project Title (Mountain Men Fitness)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a continuation of the app I've been working on most of the semester, now in React Native
 
-## Get started
+## Instructions for Build and Use
 
-1. Install dependencies
+[Software Demo](Put_Your_Video_Link_Here)
 
-   ```bash
-   npm install
-   ```
+Steps to build and/or run the software:
 
-2. Start the app
+1. Open the File RandR-BE Bash: npm start (will start the server on localhost:3000)
+2. Open a new VSCode window and Open the file MountainMen Bash npm run web (will start the app in the web with localhost:8081)
+3. Option 2: (breaks because the backend doesn't work on mobile yet) bash: npx expo start
+4. Scan the QR code to see the app in ExpoGo
 
-   ```bash
-   npx expo start
-   ```
+Instructions for using the software:
 
-In the output, you'll find options to open the app in a
+1. Home and Exercise routes work when viewing on web. Profile doesn't do anything but log to the console.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Development Environment
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-## Get a fresh project
+- See Package.json (download all with "npm i")
+-
+-
 
-When you're ready, run:
+## Useful Websites to Learn More
 
-```bash
-npm run reset-project
-```
+I found these websites useful in developing this software:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- [Instructor Walk-through](https://video.byui.edu/media/t/1_7i701g6o)
+- [React Native Docs](https://reactnative.dev/docs/getting-started)
+-
 
-## Learn more
+## Future Work
 
-To learn more about developing your project with Expo, look at the following resources:
+The following items I plan to fix, improve, and/or add to this project in the future:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [ ] Format to a Mobile First View
+- [ ] Build out the Profile Page
+- [ ] Fix the Styling
